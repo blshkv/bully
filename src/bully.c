@@ -52,12 +52,6 @@
 #define	wps_enrollee_process_msg(x,y,z)		_epm = 0
 #define	wps_enrollee_get_msg(y,z)		_egm = 0
 
-#include "utils/os_unix.c"
-#include "utils/common.c"
-#include "utils/base64.c"
-#include "utils/uuid.c"
-#include "utils/wpa_debug.c"
-#include "utils/wpabuf.c"
 #include "crypto/sha256.c"
 #include "crypto/aes-cbc.c"
 #include "crypto/crypto_openssl.c"
